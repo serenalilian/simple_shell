@@ -13,6 +13,7 @@ command2="/bin/ls
 echo "$command" | ./hsh
 echo "Real shell\n"
 echo "$command" | /bin/sh
+echo "$command" | ./hsh "./hbtn_ls/var"
 echo "$command2" | ./hsh
 echo "Real shell\n"
 echo "$command2" | /bin/sh
