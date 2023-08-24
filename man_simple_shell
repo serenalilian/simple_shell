@@ -1,0 +1,34 @@
+.TH man 1 "24 August" "0.1" "simple_shell man page'
+
+.SH
+.B simple_shell
+- Simple UNIX command interpreter
+
+.SH SYNOPSIS
+.B simple_shell
+./hsh [filename]
+
+.SH DESCRIPTION
+Simple_shell is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
+
+.SH Return Value
+
+Always 0 for sucess, other number means failure.
+
+.SH PATH
+
+It will look inside all directions in PATH env variables for executable
+
+.SH
+.B simple_shell
+Commands options will be typed after the main command followed by a space and a '-' symbol.
+
+.SH EXAMPLE
+
+[command] [options]
+$ ls -l
+.SH BUGS
+Single space required after argument.
+
+.SH
+Serena Lilian
